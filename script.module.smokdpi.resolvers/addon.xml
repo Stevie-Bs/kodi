@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.smokdpi.resolvers"
+       name="smokdpi's Resolvers Pack"
+       version="1.0.0"
+       provider-name="smokdpi">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Resolvers for smokdpi's addons.</summary>
+        <description lang="en">Resolvers for smokdpi's addons.</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s).</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>

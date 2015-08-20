@@ -1,0 +1,11 @@
+[B]v1.1.0 - Aug. 20, 2015[/B]
+	- resolvers moved to their own module to improve update process (script.module.smokdpi.resolvers)
+	
+[B]v1.0.2 (Aug. 6, 2015):[/B]
+    - resolver updates openload
+	
+[B]v1.0.1 (July 22, 2015):[/B]
+    - resolver updates openload, flashx
+    - Artwork byline added, huge thanks to @konsumer420
+
+[B]v1.0.0 (May 28, 2015):[/B]

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.adult.3xz"
        name="3XZ"
-       version="1.2.2"
+       version="1.3.0"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"/>
+        <import addon="script.module.smokdpi.resolvers"/>
         <import addon="script.module.t0mm0.common"/>
         <import addon="script.module.beautifulsoup" version="3.2.1"/>
     </requires>
@@ -18,4 +19,4 @@
         <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
         <platform>all</platform>
     </extension>
-    </addon>
+</addon>
