@@ -2,15 +2,13 @@
 <addons>
 <addon id="plugin.video.adult.3xz"
        name="3XZ"
-       version="1.3.0"
+       version="1.4.0"
        provider-name="smokdpi">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver"/>
-        <import addon="script.module.smokdpi.resolvers"/>
-        <import addon="script.module.t0mm0.common"/>
-        <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    </requires>
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.smokdpi.addon"/>
+		<import version="3.2.1" addon="script.module.beautifulsoup"/>
+	</requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -24,13 +22,11 @@
 
 <addon id="plugin.video.anime4fun"
        name="Anime4fun"
-       version="1.1.0"
+       version="1.2.0"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.smokdpi.resolvers"/>
-    <import addon="script.module.t0mm0.common"/>
+    <import addon="script.module.smokdpi.addon"/>
     <import version="3.2.1" addon="script.module.beautifulsoup"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -47,13 +43,11 @@
 
 <addon id="plugin.video.animetoon"
        name="AnimeToon"
-       version="1.1.0"
+       version="1.2.0"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.smokdpi.resolvers"/>
-    <import addon="script.module.t0mm0.common"/>
+    <import addon="script.module.smokdpi.addon"/>
     <import version="3.2.1" addon="script.module.beautifulsoup"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -70,13 +64,11 @@
 
 <addon id="plugin.video.playthis"
        name="PlayThis"
-       version="1.1.0"
+       version="1.2.0"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.smokdpi.resolvers"/>
-    <import addon="script.module.t0mm0.common"/>
+    <import addon="script.module.smokdpi.addon"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -112,7 +104,7 @@
   </extension>
 </addon>
 
-<addon id="repository.smokdpi" name="smokdpi's Add-ons" version="0.0.3" provider-name="smokdpi">
+<addon id="repository.smokdpi" name="smokdpi's Add-ons" version="1.0.0" provider-name="smokdpi">
 	<extension point="xbmc.addon.repository" name="smokdpi's Add-ons">
 		<info compressed="false">https://raw.githubusercontent.com/smokdpi/kodi/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/smokdpi/kodi/master/addons.xml.md5</checksum>
@@ -120,23 +112,43 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install smokdpi's add-ons</summary>
-		<description>Download and install add-ons by smokdpi</description>
+		<description>Download and install add-ons by smokdpi[CR][CR][B]Artwork by @konsumer420[/B]</description>
 		<platform>all</platform>
 	</extension>
 </addon>
 
+<addon id="script.module.smokdpi.addon"
+       name="smokdpi's Base Module"
+       version="1.0.0"
+       provider-name="smokdpi">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"/>
+		<import addon="script.module.t0mm0.common"/>
+		<import version="3.2.1" addon="script.module.beautifulsoup"/>
+		<import addon="script.module.smokdpi.resolvers"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Base module for smokdpi's add-ons.</summary>
+        <description lang="en">Base module for smokdpi's add-ons.[CR][CR][B]Artwork by @konsumer420[/B]</description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.module.smokdpi.resolvers"
        name="smokdpi's Resolvers Pack"
-       version="1.0.0"
+       version="1.1.0"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Resolvers for smokdpi's addons.</summary>
-        <description lang="en">Resolvers for smokdpi's addons.</description>
-        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s).</disclaimer>
+        <summary lang="en">Resolvers for smokdpi's add-ons.</summary>
+        <description lang="en">Resolvers for smokdpi's add-ons.[CR][CR][B]Artwork by @konsumer420[/B]</description>
+        <disclaimer lang="en"></disclaimer>
         <platform>all</platform>
     </extension>
 </addon>
