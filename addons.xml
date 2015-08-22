@@ -2,12 +2,12 @@
 <addons>
 <addon id="plugin.video.adult.3xz"
        name="3XZ"
-       version="1.5.0"
+       version="1.5.1"
        provider-name="smokdpi">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.smokdpi.addon"/>
-        <import addon="theme.3xz.main"/>
+        <import addon="theme.3xz.default"/>
 		<import version="3.2.1" addon="script.module.beautifulsoup"/>
 	</requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
