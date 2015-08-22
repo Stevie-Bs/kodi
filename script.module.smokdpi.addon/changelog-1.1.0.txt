@@ -1,0 +1,6 @@
+[B]v1.1.0 - Aug. 21, 2015[/B]
+    - Common artwork added
+	- Basic theme support added to core
+	
+[B]v1.0.0 - Aug. 20, 2015[/B]
+    - Initial release

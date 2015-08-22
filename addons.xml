@@ -2,11 +2,12 @@
 <addons>
 <addon id="plugin.video.adult.3xz"
        name="3XZ"
-       version="1.4.0"
+       version="1.5.0"
        provider-name="smokdpi">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.smokdpi.addon"/>
+        <import addon="theme.3xz.main"/>
 		<import version="3.2.1" addon="script.module.beautifulsoup"/>
 	</requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -22,11 +23,12 @@
 
 <addon id="plugin.video.anime4fun"
        name="Anime4fun"
-       version="1.2.0"
+       version="1.3.0"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.smokdpi.addon"/>
+	<import addon="theme.anime4fun.default"/>
     <import version="3.2.1" addon="script.module.beautifulsoup"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -43,11 +45,12 @@
 
 <addon id="plugin.video.animetoon"
        name="AnimeToon"
-       version="1.2.0"
+       version="1.3.0"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.smokdpi.addon"/>
+	<import addon="theme.animetoon.default"/>
     <import version="3.2.1" addon="script.module.beautifulsoup"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -64,7 +67,7 @@
 
 <addon id="plugin.video.playthis"
        name="PlayThis"
-       version="1.2.0"
+       version="1.2.1"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -84,7 +87,7 @@
 
 <addon id="plugin.video.watchepicdubbed"
        name="WatchEpicDubbed"
-       version="1.1.0"
+       version="1.1.1"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -118,7 +121,7 @@
 
 <addon id="script.module.smokdpi.addon"
        name="smokdpi's Base Module"
-       version="1.0.0"
+       version="1.1.0"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -147,6 +150,54 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Resolvers for smokdpi's add-ons.</summary>
         <description lang="en">Resolvers for smokdpi's add-ons.[CR][CR][B]Artwork by @konsumer420[/B]</description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="theme.3xz.default"
+       name="3XZ Default Theme"
+       version="1.0.0"
+       provider-name="smokdpi">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">3XZ Default Theme</summary>
+        <description lang="en">3XZ Default Theme[CR][CR][B]Artwork by @konsumer420[/B]</description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="theme.anime4fun.default"
+       name="Anime4fun Default Theme"
+       version="1.0.0"
+       provider-name="smokdpi">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Anime4fun Default Theme</summary>
+        <description lang="en">Anime4fun Default Theme[CR][CR][B]Artwork by @konsumer420[/B]</description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="theme.animetoon.default"
+       name="AnimeToon Default Theme"
+       version="1.0.0"
+       provider-name="smokdpi">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">AnimeToon Default Theme</summary>
+        <description lang="en">AnimeToon Default Theme[CR][CR][B]Artwork by @konsumer420[/B]</description>
         <disclaimer lang="en"></disclaimer>
         <platform>all</platform>
     </extension>
