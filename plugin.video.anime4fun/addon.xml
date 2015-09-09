@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.anime4fun"
        name="Anime4fun"
-       version="1.3.0"
+       version="1.4.0"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.smokdpi.addon"/>
-	<import addon="theme.anime4fun.default"/>
+	<import addon="theme.anime4fun.default" optional="true"/>
     <import version="3.2.1" addon="script.module.beautifulsoup"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Subbed Anime from Anime4fun.com</summary>
+    <summary lang="en">Subbed Anime from Anime4fun</summary>
     <description lang="en">[B]Anime4fun[/B][CR][CR]Watch subbed anime series and movies from Anime4fun.com/animeonlinetv.tv[CR][CR][B]Artwork by @konsumer420[/B]</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on. The author does not have any affiliation with the content provider(s).</disclaimer>
     <platform>all</platform>

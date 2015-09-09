@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="theme.animetoon.default"
-       name="AnimeToon Default Theme"
-       version="1.0.0"
+       name="Theme: AnimeToon Default"
+       version="1.1.0"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">AnimeToon Default Theme</summary>
         <description lang="en">AnimeToon Default Theme[CR][CR][B]Artwork by @konsumer420[/B]</description>
-        <disclaimer lang="en"></disclaimer>
+        <disclaimer lang="en"> </disclaimer>
         <platform>all</platform>
     </extension>
 </addon>

@@ -1,0 +1,5 @@
+[B]v1.1.0 - Sept. 9, 2015[/B]
+    - changed from module/lib to executable/program to support optional use and uninstallation
+
+[B]v1.0.0 - Aug. 21, 2015[/B]
+    - Initial release

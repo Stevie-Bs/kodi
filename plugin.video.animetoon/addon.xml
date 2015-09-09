@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.animetoon"
        name="AnimeToon"
-       version="1.3.0"
+       version="1.4.0"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.smokdpi.addon"/>
-	<import addon="theme.animetoon.default"/>
+	<import addon="theme.animetoon.default" optional="true"/>
     <import version="3.2.1" addon="script.module.beautifulsoup"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Dubbed anime and cartoons from AnimeToon.tv</summary>
-    <description lang="en">[B][COLOR white]Anime[/COLOR][COLOR red]Toon[/COLOR][/B][CR][CR]Watch dubbed anime, cartoon series and movies from AnimeToon.tv[CR][CR][B]Artwork by @konsumer420[/B]</description>
+    <summary lang="en">Dubbed anime and cartoons from AnimeToon.eu</summary>
+    <description lang="en">[B][COLOR white]Anime[/COLOR][COLOR red]Toon[/COLOR][/B][CR][CR]Watch dubbed anime, cartoon series and movies from AnimeToon.eu[CR][CR][B]Artwork by @konsumer420[/B]</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on. The author does not have any affiliation with the content provider(s).</disclaimer>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
