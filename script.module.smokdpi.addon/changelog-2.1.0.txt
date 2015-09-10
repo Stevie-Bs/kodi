@@ -1,0 +1,11 @@
+[B]v2.1.0 - Sept. 10, 2015[/B]
+    - add cloudflare "I'm Under Attack" support
+
+[B]v2.0.0 - Sept. 9, 2015[/B]
+    - re-work
+    - add history support
+    - add caching support
+    - add context menu support
+    - add playlist for part sources
+    - addtional settings/options
+    - numerous minor updates and fixes
