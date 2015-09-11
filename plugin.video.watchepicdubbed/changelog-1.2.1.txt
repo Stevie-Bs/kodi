@@ -1,0 +1,5 @@
+[B]v1.2.1 - Sept. 10, 2015[/B]
+    - updated artwork
+
+[B]v1.2.0 - Sept. 9, 2015[/B]
+    - updated for script.module.smokdpi.addon
