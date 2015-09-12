@@ -1,0 +1,6 @@
+[B]v1.6.1 - Sept. 11, 2015[/B]
+    - updated durations
+    - added extended menu to site files (unused when multiple sites in add-on)
+
+[B]v1.6.0 - Sept. 9, 2015[/B]
+    - updated for script.module.smokdpi.addon

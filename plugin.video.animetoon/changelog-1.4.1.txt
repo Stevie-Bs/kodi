@@ -1,0 +1,6 @@
+[B]v1.4.1 - Sept. 11, 2015[/B]
+    - updated durations
+    - updated strings.xml
+
+[B]v1.4.0 - Sept. 9, 2015[/B]
+    - updated for script.module.smokdpi.addon
