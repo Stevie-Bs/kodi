@@ -142,7 +142,7 @@
 
 <addon id="script.module.smokdpi.addon"
        name="smokdpi's Add-on Module"
-       version="2.1.3"
+       version="2.2.0"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -162,7 +162,7 @@
 
 <addon id="script.module.smokdpi.resolvers"
        name="smokdpi's Resolvers"
-       version="1.3.2"
+       version="1.3.3"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>

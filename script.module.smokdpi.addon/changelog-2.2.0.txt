@@ -1,0 +1,26 @@
+[B]v2.2.0 - Sept. 15, 2015[/B]
+    - Add set view option to context to save current viewmode as default for current content type
+    - Minor fixes to net, playback
+    - First shortcut added to shortcut resolver, main use case is PlayThis
+        ex. zc://[channelnumber]/ will pass a rebuilt url to zerocast resolver
+
+[B]v2.1.3 - Sept. 12, 2015[/B]
+    - fixed issue with cookies overwriting themselves (caused cloudflare to challenge on every request)
+
+[B]v2.1.2 - Sept. 11, 2015[/B]
+    - default durations adjusted from minutes to seconds
+
+[B]v2.1.1 - Sept. 10, 2015[/B]
+    - minor fixes to net/cloudflare
+
+[B]v2.1.0 - Sept. 10, 2015[/B]
+    - add cloudflare "I'm Under Attack" support
+
+[B]v2.0.0 - Sept. 9, 2015[/B]
+    - re-work
+    - add history support
+    - add caching support
+    - add context menu support
+    - add playlist for part sources
+    - addtional settings/options
+    - numerous minor updates and fixes
