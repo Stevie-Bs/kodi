@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.acz"
        name="ACZ"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -24,7 +24,7 @@
 
 <addon id="plugin.video.adult.3xz"
        name="3XZ"
-       version="1.6.1"
+       version="1.6.3"
        provider-name="smokdpi">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -45,7 +45,7 @@
 
 <addon id="plugin.video.anime4fun"
        name="Anime4fun"
-       version="1.4.1"
+       version="1.4.2"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -67,7 +67,7 @@
 
 <addon id="plugin.video.animetoon"
        name="AnimeToon"
-       version="1.4.1"
+       version="1.4.2"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -108,7 +108,7 @@
 
 <addon id="plugin.video.watchepicdubbed"
        name="WatchEpicDubbed"
-       version="1.2.2"
+       version="1.2.3"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -142,7 +142,7 @@
 
 <addon id="script.module.smokdpi.addon"
        name="smokdpi's Add-on Module"
-       version="2.2.1"
+       version="2.2.2"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
