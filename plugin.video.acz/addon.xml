@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.acz"
        name="ACZ"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="smokdpi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.smokdpi"/>	
     <import addon="script.module.smokdpi.addon"/>
     <import version="3.2.1" addon="script.module.beautifulsoup"/>
 	<import addon="theme.acz.default" optional="true"/>

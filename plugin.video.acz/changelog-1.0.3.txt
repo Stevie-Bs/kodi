@@ -1,0 +1,9 @@
+[B]v1.0.2 - Sept. 23, 2015[/B]
+    - all: content-type adjustments for setting view
+    - anime4fun: source quality adjustments, should be more accurate now
+
+[B]v1.0.1 - Sept. 20, 2015[/B]
+    - maintenance / cosmetics
+
+[B]v1.0.0 - Sept. 9, 2015[/B]
+    - Initial Release
