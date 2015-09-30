@@ -1,3 +1,7 @@
+[B]v2.2.5 - Sept. 30, 2015[/B]
+    - favorites database updates. previous used url UNIQUE, now using constraint (site, url)
+    - alerts/notifications fixed
+
 [B]v2.2.4 - Sept. 23, 2015[/B]
     - histories fixed to allow same results across sites
         previously a query could only be added to history in one site,
