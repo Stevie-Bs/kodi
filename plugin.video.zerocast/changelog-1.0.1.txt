@@ -1,0 +1,7 @@
+[B]v1.0.1 - Oct. 12, 2015[/B]
+    - title formatting adjustments
+    - title and image passed for playback
+    - remove optional dependency
+
+[B]v1.0.0 - Oct. 12, 2015[/B]
+    - Initial Testing Release
