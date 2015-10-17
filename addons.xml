@@ -25,7 +25,7 @@
 
 <addon id="plugin.video.adult.3xz"
        name="3XZ"
-       version="1.9.0"
+       version="1.9.1"
        provider-name="smokdpi">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
