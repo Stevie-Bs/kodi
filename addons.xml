@@ -170,7 +170,7 @@
 
 <addon id="script.module.smokdpi.addon"
        name="smokdpi's Add-on Module"
-       version="2.2.8"
+       version="2.2.9"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
