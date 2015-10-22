@@ -1,0 +1,18 @@
+[B]v1.4.6 - Oct. 22, 2015[/B]
+    - add source listing type to settings / dialog or directory
+
+[B]v1.4.5 - Oct. 8, 2015[/B]
+    - disable caching of "Surprise Me!"
+	
+[B]v1.4.3 - Sept. 23, 2015[/B]
+	- content-type adjustments for setting view
+
+[B]v1.4.2 - Sept. 20, 2015[/B]
+    - maintenance / cosmetics
+
+[B]v1.4.1 - Sept. 11, 2015[/B]
+    - updated durations
+    - updated strings.xml
+
+[B]v1.4.0 - Sept. 9, 2015[/B]
+    - updated for script.module.smokdpi.addon

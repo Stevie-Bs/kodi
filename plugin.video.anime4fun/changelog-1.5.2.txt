@@ -1,0 +1,25 @@
+[B]v1.5.2 - Oct. 22, 2015[/B]
+    - add source listing type to settings / dialog or directory
+
+[B]v1.5.1 - Oct. 8, 2015[/B]
+    - fix latest episodes
+	
+[B]v1.5.0 - Sept. 25, 2015[/B]
+    - more source quality adjustments
+    - additional menus
+    - pagination added to search and listings
+    - scrape additional information where available
+	
+[B]v1.4.3 - Sept. 23, 2015[/B]
+	- content-type adjustments for setting view
+	- source quality adjustments, should be more accurate now
+
+[B]v1.4.2 - Sept. 20, 2015[/B]
+    - maintenance / cosmetics
+
+[B]v1.4.1 - Sept. 11, 2015[/B]
+    - updated durations
+    - updated strings.xml
+
+[B]v1.4.0 - Sept. 9, 2015[/B]
+    - updated for script.module.smokdpi.addon
