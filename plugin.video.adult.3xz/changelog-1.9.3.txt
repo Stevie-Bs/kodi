@@ -1,0 +1,49 @@
+[B]v1.9.3 - Oct. 22, 2015[/B]
+    - added site beeg
+
+[B]v1.9.2 - Oct. 22, 2015[/B]
+    - add source listing type to settings / dialog or directory
+    - chaturbate: use playback module instead of handling playback directly
+
+[B]v1.9.1 - Oct. 17, 2015[/B]
+    - chaturbate: additional sections/sub menus added
+    - chaturbate: removed duration
+
+[B]v1.9.0 - Oct. 16, 2015[/B]
+    - added site chaturbate (no login, only featured and gender based sections for now)
+
+[B]v1.8.2 - Oct. 13, 2015[/B]
+    - watchxxxhd/xtheatre: source scraping updated
+
+[B]v1.8.1 - Oct. 6, 2015[/B]
+    - filmikzxxx: added search
+    - filmikzxxx: adjustments to pagination
+
+[B]v1.8.0 - Oct. 6, 2015[/B]
+    - added site filmikzxxx
+
+[B]v1.7.1 - Oct. 3, 2015[/B]
+    - freeomovie: fixed source scraping that was removed/missed when part sources were added
+
+[B]v1.7.0 - Sept. 30, 2015[/B]
+    - added site urbanhentai
+
+[B]v1.6.6 - Sept. 29, 2015[/B]
+    - freeomovie: part sources now scraped
+
+[B]v1.6.4 - Sept. 23, 2015[/B]
+    - all: content-type adjustments for setting view
+    - xtheatre: added plots
+    - xtheatre/watchxxxhd: fixed images in categories
+
+[B]v1.6.3 - Sept. 20, 2015[/B]
+    - fixed playporn (All) menus
+    - fixed watchxxxhd/xtheatre failing due to missing images
+    - maintenance / cosmetics
+
+[B]v1.6.2 - Sept. 11, 2015[/B]
+    - updated durations
+    - added extended menu to site files (unused when multiple sites in add-on)
+
+[B]v1.6.0 - Sept. 9, 2015[/B]
+    - updated for script.module.smokdpi.addon
