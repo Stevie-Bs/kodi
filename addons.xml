@@ -191,7 +191,7 @@
 
 <addon id="script.module.smokdpi.resolvers"
        name="smokdpi's Resolvers"
-       version="1.4.1"
+       version="1.4.2"
        provider-name="smokdpi">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
